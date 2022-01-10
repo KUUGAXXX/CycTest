@@ -13,4 +13,11 @@ public class WaitNotifyTest {
         }
         System.out.println("after");
     }
+
+    public static void main(String[] args) {
+
+        WaitNotifyTest result=new WaitNotifyTest();
+
+        result.
+    }
 }
