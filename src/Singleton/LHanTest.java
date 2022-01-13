@@ -12,7 +12,7 @@ public class LHanTest {
         result2.start();
         result3.start();
     }
-
+//用volatile来防止指令重排序（有人说是用了volatile的线程可见性，是错的，是运用了他的防止指令重排序的特点）
 //volatile是用来同步各个线程之间instance是否存在
     private volatile static LHanTest instance;
     private LHanTest(){}
